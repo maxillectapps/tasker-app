@@ -1,0 +1,11 @@
+
+mat-toolbar{
+} 
+
+mat-toolbar-row{
+padding-left: 3rem;
+}
+
+.spacer {
+    flex: 1 1 auto;
+  }

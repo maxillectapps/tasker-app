@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    align-items: center;
+    height:2rem;
+    justify-content: space-between;
+    padding: .5rem .5rem;
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+    /* padding: .5rem; */
+    /* justify-content:flex-start; */
+}
+
+.container div p{
+    /* padding: .5rem; */
+}

@@ -1,0 +1,18 @@
+mat-card-header{
+    font-size: 1.5em;
+    font-weight: 500;
+    background-color: #673ab7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:.5rem 1.5rem;
+    color: #ffd740;
+  }
+
+  button{
+    background-color: transparent;
+    border: none;
+    color: #ffd740;
+    cursor: pointer;
+  }
+ 

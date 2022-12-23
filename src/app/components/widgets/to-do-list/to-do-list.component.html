@@ -1,0 +1,16 @@
+<div class="container">
+  <app-to-do-widget *ngFor="let todo of toDoList" [toDoId]="todo.id">
+    <app-alert-only-content [todo]="todo"></app-alert-only-content>
+    <app-to-do-image-widget
+      *ngIf="todo.image"
+      [image]="todo.image"
+    ></app-to-do-image-widget>
+    <app-to-do-file-widget
+      *ngIf="todo.attachment"
+      [attachment]="todo.attachment"
+    ></app-to-do-file-widget>
+    <app-to-do-acceptance-widget
+      *ngIf="todo.type"
+    ></app-to-do-acceptance-widget>
+  </app-to-do-widget>
+</div>
